@@ -10,18 +10,18 @@
                                                                            
 				
 		HELLO!
-		YOU'RE LOOKING AT MY CODE UH?
-		NO CMS HERE, AND EVERYTHING IS HANDMADE AND AUTOMATED.
+		YOU'RE LOOKING AT MY CODE? :)
+		NO CMS HERE, AND EVERYTHING IS HANDMADE.
 		
-		I develop w/ HTML, CSS, PHP, AJAX, WordPress & much more.
+		I develop w/ HTML, CSS, PHP, WordPress & much more.
 		
 		IF YOU'VE QUESTIONS OR WANT TO GET IN TOUCH
-		FOR DEVELOPER SERVICES (OR MY FULL CV) JUST WRITE ME.
+		(OR MY FULL CV) JUST WRITE ME AN EMAIL.
 		
 		HAVE FUN!
 		simonquasar
 		
-		last-edit: 26.Jun.2024
+		last-edit: 30.Jan.2025 
 	-->
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -41,52 +41,30 @@
 	<meta property="og:image:height" content="630" />
 	<meta property="profile:first_name" content="Simon">
 	<meta property="profile:last_name" content="Pilati">
-	<!-- Chrome, Firefox OS and Opera 
-	<meta name="theme-color" content="#ff9e17">
-	<meta name="msapplication-navbutton-color" content="#ff9e17">
-	Windows Phone -->
+	
+	<meta name="theme-color" content="#ffb500">
+	<meta name="msapplication-navbutton-color" content="#ffb500">
 	<meta name="msapplication-TileColor" content="#ffb500">
 	<meta name="theme-color" content="#ffb500">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	
-
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1.1">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1.1">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1.1">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=1.1">
+	<link rel="icon" type="image/png" sizes="32x32" href="./android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico">
 	<link rel="manifest" href="/site.webmanifest?v=1.1">
-	<link rel="shortcut icon" href="/favicon.ico?v=1.1">
-
-
-	<link rel="image_src" href="images/Q.png" />
-	
-	<link rel="stylesheet" href="2023.css" type="text/css" media="screen, projection" />
+	<link rel="shortcut icon" href="./favicon.ico?v=1.1">
+	<link rel="image_src" href="./images/Q.png" />
+	<link rel="stylesheet" href="./style.css" type="text/css" media="screen, projection" />
 	
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	
-    <script type="text/javascript" src="/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-	<script type="text/javascript" src="/js/jquery.mixitup.js"></script>
-
-	<script type="text/javascript" src="/blotter/build/blotter.min.js"></script>
-	<script type="text/javascript" src="/blotter/build/materials/liquidDistortMaterial.js"></script>
-	<script type="text/javascript" src="/blotter/build/materials/channelSplitMaterial.js"></script>
-	<script type="text/javascript" src="/blotter/build/materials/fliesMaterial.js"></script>
-	<!-- DEACTIVATED UNTIL FURTHER NOTICE
-	<script type="text/javascript">          
-        var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-20736728-7']);
-          _gaq.push(['_setDomainName', 'simonquasar.net']);
-          _gaq.push(['_setAllowLinker', true]);
-          _gaq.push(['_trackPageview']);
-        (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-	</script>
-	
-	<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="fa33f803-6419-44e6-bf3f-b5af6e97da76";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>	
-	-->
+    <script type="text/javascript" src="./lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="./js/jquery.mixitup.js"></script>
+	<script type="text/javascript" src="./blotter/build/blotter.min.js"></script>
+	<script type="text/javascript" src="./blotter/build/materials/liquidDistortMaterial.js"></script>
+	<script type="text/javascript" src="./blotter/build/materials/channelSplitMaterial.js"></script>
+	<script type="text/javascript" src="./blotter/build/materials/fliesMaterial.js"></script>
 </head>
 
 <body>
@@ -108,8 +86,8 @@
 				
 				<div id="menu" class="menu">
 					<a href="#who" id="who_link" data-toggle="#who">who</a>
+					<a href="#portfolio" id="projects_link" data-toggle="#portfolio">portfolio</a>
 					<a href="#work" id="pricelist_link" data-toggle="#pricelist">services</a>
-					<a href="#portfolio" id="projects_link" data-toggle="#portfolio">projects</a>
 					<br/>
 					<a href="#nemg" id="nemg_link" alt="La nascita dell’editoria moderna in Giappone" data-toggle="#nemg" style="color:var(--branch-print);">明治の出版</a>
 					<br/>
@@ -117,14 +95,24 @@
 				</div>
 				
 				<div id="icons">
-						<a class="icon" href="https://blog.simonquasar.net" target="_self" title="blog.simonquasar.net / tumblr"><img src="images/tumblr.png" width="24px"/></a>	
+						<a class="icon" href="https://github.com/simonquasar" target="_self" title="github.com/simonquasar / GitHub"><img src="../images/github-mark.png" width="24px"/></a>
+						<a class="icon" href="https://blog.simonquasar.net" target="_self" title="blog.simonquasar.net / tumblr"><img src="../images/tumblr.png" width="24px"/></a>	
+						<a class="icon" href="https://bsky.app/profile/smnqsr.bsky.social" target="_self" title="@a bsky.social"><img src="../images/bsky_black.png" width="24px"/></a>	
 				</div>
 				
-				<div id="sub_menu" class="menu">
-					<a href="https://maps.simonquasar.net/" id="maps_link" target="_self"><small><i style="opacity: 0.7">maps generator</i></small></a>
-					<a href="https://network.simonquasar.net/" id="maps_link" target="_self"><small><i style="opacity: 0.7">network</i></small></a>
+				<div id="lang_menu" class="menu">
+					<a href="#" class="lang_link" target="_self">eng</a>
+					<a href="https://www.simonquasar.net/de" class="lang_link" target="_self">deu</a> 
+					<a href="https://www.simonquasar.net/it" class="lang_link" target="_self">ita</a>
+					<a href="https://www.simonquasar.net/es" class="lang_link" target="_self">esp</a>
+					<a href="https://www.simonquasar.net/jp" class="lang_link" target="_self">日本語</a>
 				</div>
-			
+
+				<div class="section" id="home">
+					<img class="mobile-img" src="/inc/konnichiwa.png" style="width:inherit;" alt="Hello!"/>
+					<div id="hello">Hello!</div>
+				</div>
+
 		</div>
 		
 				
@@ -134,9 +122,9 @@
 					<a href="https://simonquasar.net" target="_self" title="simonquasar"><img class="header-img" id="qh" src="/q18.png" title="simonquasar" alt="simonquasar"/></a> 
 					<br/>
 					<a href="#who" data-toggle="#who">who</a>
-					<a href="#work" id="pricelist_link" data-toggle="#pricelist">services</a>
-					<a href="#portfolio" data-toggle="#portfolio">projects</a>
-					<a href="#nemg" data-toggle="#nemg" style="color:var(--branch-print);">明治の出版</a>
+					<a href="#portfolio" data-toggle="#portfolio">portfolio</a>
+					<a href="#work" data-toggle="#pricelist">services</a> 
+					<a href="#nemg" style="color:var(--branch-print);font-size:0.9em;">明治の出版</a>
 					<a href="#contact" data-toggle="#contact">contact</a>
 				</div>
 			
@@ -144,75 +132,37 @@
 		
 		<div id="right">
 		
-			<div class="section" id="home">
-				
-				<img class="mobile-img" src="/inc/konnichiwa.png" style="width:inherit;" alt="Hello!"/>
-				<div id="hello"></div>
-					
-			</div>
-		
 			<div class="section" id="who">
-					<br/><h1 id="who-header">Hello!</h1><img class="mobile-img" src="/inc/hello.png" alt="Hello!"/>
+					<br/><h1 id="who-header">Hi!</h1><img class="mobile-img" src="/inc/hello.png" alt="Hello!"/>
 					<br/>
 					<p>
 						<br/>My name is <b>Simon</b>,
 						<br/>
 						<br/>
-						<br/>Since 2012, I <u>formulate solutions with care and precision</u> to produce <u>content that has value</u> and people notice.
+						<br/>Since 2012, I have been <u><b>crafting thoughtful solutions</b></u> to create <u>content that stands out</u> and resonates with diverse audiences.
 						<br/>
-						<br/>My profession integrates <b>creative production</b> and <b>direction</b> for <u>analog and digital media</u>, grounded on technical and <b>design</b> expertise.
+						<br/>My work combines <b>creative production</b> and <b>direction</b> across <u>analog and digital media</u>, supported by a wide expertise.
 						<br/>
-						<br/>As executive-level support</b> for <u>editorial productions</u>, <u>media releases</u>, <u>cultural projects</u>, <u><b>multimedia</b> concepts</u>, events and web <b>presence</b>, I am also trained web developer and designer. 
+						<br/>As a professional providing <b>executive-level</b> services for <u>editorial productions</u>, <u>media releases</u>, <u><b>cultural projects</b></u>, <u>multimedia concepts</u>, events and web <b>presence</b>, I also bring my expertise as a trained digital designer. 
+						<br/>
+						<br/>My <b>multilingual proficiency</b> stems from a background in <u>literary and linguistic studies</u>, giving me the ability to bridge cultures and work effectively in international contexts.
 						<br/>
 						<br/>
 						<br/><a href="#contact" data-toggle="#contact" style="border-bottom: 1px solid black;">Get in touch</a> if you have any queries.
 					</p>
-			</div>
-					<hr>
 
-			<div class="section" id="work">
-					<h1 id="price-header">Services & Expertise</h1> <img class="mobile-img" src="/inc/services.png" alt="Services"/>
-							
-					<br/>Typography, Linguistics, Visual Communication. <u><b>CMYK & Print</b></u>, <u><b>Web</b></u> Development, Packaging, UX / UI Design, SEO. 
-					<br>
-					<br>
-					<br>
-										
-					<div class="entry">
-						<h3>· Production Management</h3>
-						<br/>Marketing organisation for creative distributions, releases, artworks and events.
-						<!-- <br/><small style="margin-top:.2em"><u>Planning and organisation</u>, overseeing of <u>production processes</u> and schedules, <u>costs estimates</u>, 
-						<br/>selection of equipment and methods, <u>monitoring</u> of product standards.</small> -->
-					</div>
-					<br><br/>
-					
-					<div class="entry">
-						<h3>· Creative Direction</h3>
-						<br/>Branding, Graphic design and visual communication, Publishing, Display Advertising, Flyers, Catalogues.
-						<br/>From small leaflets and cards to books, magazines and wall prints.
-						<!-- <br/><small style="margin-top:.2em"><u>Adobe InDesign</u>, <u>Photoshop</u>, Illustrator, Premiere, After Effects.</small> -->
-						
-					</div>
-					<br/><br/>
-					
-					<div class="entry">
-						<h3>· Web Design</h3>
-						<br/>Webdesign, Front-End-Tailored Theming and Concepts.
-						<!-- <br/><small style="margin-top:.2em"><u>HTML</u>, <u>PHP</u>, <u>CSS3</u>, JavaScript and related <u>production tools</u>.</small -->
-					</div>
-					<br/><br/>
-					
-					<br><small>I speak <b>German</b>, <b>Italian</b>, <b>English</b> <i>(C2)</i> and <b>Japanese</b> <i>(B1)</i>.</small>
-					<br>				
 			</div>
+			
 			
 			<hr>	
 			
 			<div class="section" id="portfolio" style="min-height: 400px;">
-				<h1 id="port-header" style="margin: 20px 0" data-sort="random">Selected Projects</h1><img class="mobile-img" src="/inc/projects.png" alt="Hello!"/>
-				<div id="preloader"><p><i><b>Projects are loading...</b>
+				<h1 id="port-header" style="margin: 20px 0" data-sort="random">◍ Selected Projects</h1><img class="mobile-img" src="/inc/projects.png" alt="Hello!"/>
+				<u><h5 class="mobile-txt">best viewed on tablet/desktop</h5></u>
+				<h6 style="font-weight: lighter; padding-bottom: 1em;">click on the categories to filter</h6>
+				<div id="preloader"><p><i><b>Projects are loading...</b></i>
 				<br/>
-				<br/>This preloader message is written to distract you a bit.
+				<br/>This preloader message is written to distract you a bit, hope it's helpful to relieve from the burden of waiting.
 				<br/>Please wait a few seconds or change your browser.
 				<br/>
 				<br/></p></div>	
@@ -306,87 +256,69 @@
 
 					<?php } ?>
 
-					<script>
-
-						$.get('./reef/list.txt', function(data) {
-							var element = 1;
-							var title = '';
-							var lines = data.split("\n");
-							$.each(lines, function(n, elem) {
-								var current = elem.split(" ")[0];
-								if (current == '--') {
-									element = element + 1;
-								}
-								else {
-									var content = elem.slice(current.length+1);
-									current = current.toLowerCase();
-									if(current == 'identity' || current =='print' || current =='webdesign' || current =='releases' || current =='corporate' || current =='events' || current =='coding') {
-										cssclass = current;
-										current = '#' + element + '-' + current + ' .branchbar';
-										var size = ( content * 34 ) - content;
-										var css_size = size + '%';
-										$(current).css("width", css_size);
-										current = '#' + element;
-										if(content > 0 ) { $(current).addClass(cssclass); }
-									}
-									else if(current == 'link') {
-										current = '#' + element + ' .' + current;
-										content = '<a href="https://' + content + '" target="_blank" title="'+ content +'">' + content + '</a>';
-										$(current).append(content);
-									}
-									else if(current == 'content') {
-										current = '#' + element + '-' + current;
-										var bg = '/reef/sr' + content + '.webp';
-										$.get(bg)
-											.done(function() {
-												content = '<img id="' + element + '-img" src="https://simonquasar.net' + bg + '" oncontextmenu="return false;"/>'; 
-										$(current).append(content);
-											}).fail(function() { 
-												content = 'prova';
-											});
-										$(current).click(function() {
-											// $.fancybox.open(bg);
-											this.title = title;
-										});
-									}
-									else if(current == 'title' || current =='location' || current =='description'){
-										if(current == 'title'){
-											tool = '#tooltip-' + element;
-											$(tool).append(content);
-											tool = '#' + element + ' .intro';
-											$(tool).append(content);
-										}
-										current = '#' + element + ' .' + current;
-										$(current).append(content);
-									}
-									
-								}
-							});
-						});
-					</script>  
+					<script src="../portfolio.js" type="text/javascript"></script> 
 						
 				</div>
 			</div>
-			
+			<hr> 
+
+			<div class="section" id="work">
+					<h1 id="price-header">◍ Services & Expertise</h1> <img class="mobile-img" src="/inc/services.png" alt="Services"/>
+							
+					<br/>Blending visual communication, linguistics, and cultural studies with editorial business expertise. Mastering <u><b>CMYK & RGB</b></u>, <u><b>Web</b></u> development and digital design.
+					<br>
+					<br>
+					<br>
+										
+					<div class="entry">
+						<h3 style="background-color:var(--branch-events)">◢ Editorial & Literary Expertise</h3>
+						<p>With a profound background in book design, editorial production and research, I specialize in content editing and managing publishing processes for books, magazines and cultural publications.</p>
+					</div>
+
+					<div class="entry">
+						<h3 style="background-color:var(--main-magenta); color:var(--main-white);">◢ Creative Production</h3>
+						<p>Whether it's small promotional materials or large-scale projects, I ensure quality and creativity at every step.<br/>
+						From concept to delivery, I oversee creative projects with a focus on organization for distributions, releases, artworks, and events. 
+						</p>
+					</div>
+
+					<div class="entry">
+						<h3 style="background-color:var(--branch-releases)">◢ Languages & Communication</h3>
+						<p>Driven by a passion for studying and teaching languages, as well as for cultural dialogue, I am bilingual in <u><i>Italian</i></u> and <u><i>German</i></u>, fluent in <u><i>English</i></u>, and conversant in <u><i>Spanish</i></u> and <u><i>Japanese</i></u>. At the same time, I have a strong knowledge of essential programming languages (<i>HTML, PHP, CSS, JS, MySQL, etc.</i>) and IT.</p>
+					</div>
+
+
+					<div class="entry">
+						<h3 style="background-color:var(--main-black); color:var(--main-white);">◢ Digital & Print Design</h3>
+						<p>Expert in web design and branding, I create visually captivating digital content and seamless user experiences. My skills extend to developing concepts for brands, websites and crafting effective digital marketing strategies and appeals.</p>
+					</div>
+					
+			</div>
 			<hr>
 
 			
 			<div class="section" id="nemg">
-				<h1 id="contact-header" style="margin: 20px 0"  style="color:var(--branch-print);">明治の出版</h1><img class="mobile-img" src="/inc/明治の出版.png" alt="明治の出版"/>
+				<h1 id="nemg-header" style="margin: 20px 0" style="color:var(--branch-print);">明治の出版</h1>
+				<img class="mobile-img" src="../inc/nihonnoshuppansha.png" alt="明治の出版 Meji Publishing"/>
 				</br>
-				<h3><i>La nascita dell’editoria moderna in Giappone</i> <span style="font-weight:lighter">1853–1890</span></h3>
+				<h3><i>The Emergence of Modern Publishing in Japan</i> <span style="font-weight:lighter">1853–1890</span></h3>
+				<h3 style="font-weight:lighter"><i>La nascita dell’editoria moderna in Giappone</i> <span style="font-weight:lighter; opacity: 0.8;">1853–1890</span></h3>
 				<i>Simon Pilati, 2024</i></br>
 				</br> 
-				</br><p>Questo libro esamina in dettaglio <b>l’evoluzione dell’editoria e della stampa giapponese dagli anni pre-Meiji fino alla fine del secolo XIX</b>. Assieme alle numerose controversie legali, avventure commerciali e ai tumulti politici che caratterizzavano l’epoca, vengono tracciati i ruoli importanti di figure come Fukuzawa Yukichi, Fukuchi Gen’ichirō o Edoardo Chiossone. Esplorando le relazioni tra editori, autori, Stato e opinione pubblica, il saggio delinea gli sviluppi tecnologici, il ruolo degli oranda fūsetsugaki, la nascita dei primi shinbun e degli zasshi fino all’avvento dei kisha club. <b>Un’analisi inedita per comprendere le fondamenta dell’industria editoriale giapponese moderna.</b></p>
-				<a href="https://shuppan.simonquasar.net" target="_self" alt="La nascita dell’editoria moderna in Giappone" style="color:var(--branch-print);"><img src="/images/nemg.webp" alt="Cover: La nascita dell'editoria moderna in Giappone" style="width: 30%; min-width:250px"/>
 				</br>
-				</br>Maggiori informazioni qui.</a>
-				</br><small>19,20€ - 154 pagg. - ISBN 9781446129609</small>
+				<a href="https://shuppan.simonquasar.net" target="_self" alt="The Emergence of Modern Publishing in Japan" style="color:var(--branch-print);">
+					<img src="../images/nemg.webp" alt="Cover: La nascita dell’editoria moderna in Giappone" style="height: 250px;float: left;  padding-right: 1em;"/>
+				</a>
+				<p>This book examines in detail the development of Japanese publishing and printing from the pre-Meiji era to the end of the 19th century. Alongside the numerous legal controversies, commercial ventures, and political upheavals that characterized the era, it traces the significant roles of figures such as Fukuzawa Yukichi, Fukuchi Gen’ichirō, and Edoardo Chiossone. By exploring the relationships between publishers, authors, the state, and public opinion, the study outlines technological developments, the role of the Oranda Fūsetsugaki, the emergence of the first Shinbun and Zasshi, and the introduction of the Kisha Clubs. A fresh analysis to understand the foundations of the modern Japanese publishing industry.</p>
+				</br>
+				</br><small>154 pages - ISBN 9781446129609</small>
+				<a href="https://shuppan.simonquasar.net" target="_self" title="La nascita dell’editoria moderna in Giappone" style="color:var(--branch-print);">
+				</br>More info here <span style="color:var(--branch-events);">(in Italian)</span></a>
 				</br>
 			</div>
+
 			
 			<hr>
-
 			
 			<div class="section" id="contact">
 				<h1 id="contact-header" style="margin: 20px 0">Contact</h1><img class="mobile-img" src="/inc/contact.png" alt="Contact"/>
@@ -417,13 +349,13 @@
 				
 				</br>
 				</br>
-				<small><a href="https://bit.ly/sqpricelist24" target="_blank" style="color: var(--branch-print);">Price List (ENG) & Listino Prezzi (ITA)</a></small><br>
-				<small><a href="https://cloud.simonquasar.net/s/ToS_ita" target="_blank">Termini e Condizioni (ITA)</a> - <a href="taga.pdf">TAGA.DOC.18 (ITA)</a><br>
-				<a href="agb.pdf">Allgemeine Geschäftsbedingungen (DEU)</a></small><br/>
-				<small><span style="display: inline-block;">VAT</span> IT 01223370253</small></br>
-				
 				<br/>
 				Since <b>2012</b>. Currently based in <i>Italy</i>.</br>
+				<br/>
+				<br/>
+				<small><a href="https://bit.ly/sqpricelist24" target="_blank">Price List</a></small> / <small><a href="https://cloud.simonquasar.net/s/ToS_ita" target="_blank">Terms and Conditions</a> - <a href="taga.pdf">TAGA.DOC.18 (ITA)</a></small><br/>
+				<small><span style="display: inline-block;">VAT</span> IT 01223370253</small></br>
+				
 				<!--googleon: all-->
 				</br>
 				</p>
@@ -451,195 +383,12 @@
 		</div>
 			
 	</div>
-	
-	
-<!--
-      ___                       ___           ___           ___                         ___           ___           ___           ___           ___     
-     /  /\        ___          /__/\         /  /\         /__/\          ___          /__/\         /  /\         /  /\         /  /\         /  /\    
-    /  /:/_      /  /\        |  |::\       /  /::\        \  \:\        /  /\         \  \:\       /  /::\       /  /:/_       /  /::\       /  /::\   
-   /  /:/ /\    /  /:/        |  |:|:\     /  /:/\:\        \  \:\      /  /::\         \  \:\     /  /:/\:\     /  /:/ /\     /  /:/\:\     /  /:/\:\  
-  /  /:/ /::\  /__/::\      __|__|:|\:\   /  /:/  \:\   _____\__\:\    /  /:/\:\    ___  \  \:\   /  /:/~/::\   /  /:/ /::\   /  /:/~/::\   /  /:/~/:/  
- /__/:/ /:/\:\ \__\/\:\__  /__/::::| \:\ /__/:/ \__\:\ /__/::::::::\  /  /:/~/::\  /__/\  \__\:\ /__/:/ /:/\:\ /__/:/ /:/\:\ /__/:/ /:/\:\ /__/:/ /:/___
- \  \:\/:/~/:/    \  \:\/\ \  \:\~~\__\/ \  \:\ /  /:/ \  \:\~~\~~\/ /__/:/ /:/\:\ \  \:\ /  /:/ \  \:\/:/__\/ \  \:\/:/~/:/ \  \:\/:/__\/ \  \:\/:::::/
-  \  \::/ /:/      \__\::/  \  \:\        \  \:\  /:/   \  \:\  ~~~  \  \:\/:/__\/  \  \:\  /:/   \  \::/       \  \::/ /:/   \  \::/       \  \::/~~~~ 
-   \__\/ /:/       /__/:/    \  \:\        \  \:\/:/     \  \:\       \  \::/        \  \:\/:/     \  \:\        \__\/ /:/     \  \:\        \  \:\     
-     /__/:/        \__\/      \  \:\        \  \::/       \  \:\       \__\/          \  \::/       \  \:\         /__/:/       \  \:\        \  \:\    
-     \__\/                     \__\/         \__\/         \__\/                       \__\/         \__\/         \__\/         \__\/         \__\/    
-
--->	
-
-
-<script type="text/javascript">
-	
-	// MATH FUNCTIONS
-		
-	function getRandom(min, max) {
-		return Math.random() * (max - min) + min;
-	}
-	
-	function angleBetweenPointsInDegrees(x1, y1, x2, y2) {
-		var angle = Math.atan2(y2 - y1, x2 - x1) * 180.0 / Math.PI;
-		angle = 180 + angle;
-		return angle;
-	}
-
-	function distanceBetweenPoints(x1, y1, x2, y2) {
-		var a = x1 - x2;
-		var b = y1 - y2;
-		return Math.sqrt((a * a) + (b * b));
-	}
-	
-	// INTRO TEXT
-	
-	var text = ['HELLO', 'こんにちは', 'HALLO', 'CIAO']
-	
-	function change() {
-		var x = Math.floor(getRandom(0, 5));
-		$('#hello').html(text[x]);
-		
-		var Itext = new Blotter.Text("こんにちは", {
-		  family : "Vollkorn, Open Sans Condensed,  Helvetica, Verdana, sans-serif",
-		  size : 100,
-		  fill : "#171717",
-		  padding: 80
-		});
-
-		var material = new Blotter.ChannelSplitMaterial();
-		
-		var offset = getRandom(0, 0.1);
-		var rotation = getRandom(0, 360);
-		
-		material.uniforms.uOffset.value = offset;
-		material.uniforms.uRotation.value = rotation;
-		material.uniforms.uApplyBlur.value = 1;
-		material.uniforms.uAnimateNoise.value = 1;
-		
-		var blotter = new Blotter(material, {
-		  texts : Itext
-		});
-
-		var elem = document.getElementById("hello");
-		var scope = blotter.forText(Itext);
-		$('#hello').html("");
-		scope.appendTo(elem);
-		
-		scope.on("mousemove", function (mousePosition) {
-			var rotation = angleBetweenPointsInDegrees(0.3, 0.3, mousePosition.x, mousePosition.y);
-			var offset = Math.min(0.05, distanceBetweenPoints(0.3, 0.3, mousePosition.x, mousePosition.y));
-
-			material.uniforms.uOffset.value = offset;
-			material.uniforms.uRotation.value = rotation;
-		});	
-    }
-	
-	// START
-	
-	jQuery(document).ready(function($) {
-			
-			change();
-			
-            $(window).load(function(){
-
-                $('#preloader').slideDown('slow',function(){$(this).remove();});
-				$('.branches').fadeIn(800);
-				$('#portwrap').fadeIn(800);
-				
-				// START FILTERS
-
-				$(function(){
-				  $('#portwrap').mixItUp({
-					load: {
-						filter: 'all',
-						// sort: 'random'
-					},
-					controls: {
-						toggleFilterButtons: true,
-						toggleLogic: 'and'
-					},
-					callbacks: {
-						onMixEnd: function(state){
-							console.log(state.activeFilter)
-						}
-					},
-					animation: {
-						effectsIn: 'fade translateY(-100px)',
-						animateResizeContainer: false
-					},
-				  });
-				});				
-            });
-	
-		//  SCROLL AND OTHER EFFECTS 
-		
-		 $('#wrap').scroll(function(){                          
-			if ($(this).scrollTop() > 1200) {
-				$('#menuleft').fadeIn(1000);
-				$('#br').fadeOut(500);
-			} else {
-				$('#menuleft').fadeOut(400);
-				$('#br').fadeIn(500);
-			}
-		});
-			
-		$( "article" ).click(function() {
-		  $(this).toggleClass("open");
-		});
-		
-		$(document).click( function(e) {
-			var clicked = $(e.target).closest('.open');
-			if ( clicked.length == 0 ) {
-				$(".open").removeClass('open');
-			}
-		});
-		
-		// H1 HEADERS TYPO EFFECT
-		
-		var Headers = document.querySelectorAll('[id$="-header"]');
-		
-		Headers.forEach(function(element) {
-			id = element.getAttribute('id');
-			content = element.textContent;
-			
-			var text = new Blotter.Text(content, {
-			  family : "Open Sans Condensed,  Helvetica, Verdana, sans-serif",
-			  size : 24,
-			  weight: 800,
-			  fill : "#171717",
-			  padding: 0
-			});
-
-			var material = new Blotter.ChannelSplitMaterial();
-			
-			var offset = getRandom(0.05, 0.15); // max 1.0
-			var rotation = getRandom(0, 360);
-			
-			material.uniforms.uOffset.value = offset;  
-			material.uniforms.uRotation.value = rotation;
-			material.uniforms.uApplyBlur.value = 0;
-			material.uniforms.uAnimateNoise.value = 0;
-			
-			var blotter = new Blotter(material, {
-			  texts : text
-			});  
-
-			var scope = blotter.forText(text);
-			$('#'+id).html("");
-			scope.appendTo(element);
-				
-			scope.on("mousemove", function (mousePosition) {
-				var rotation = angleBetweenPointsInDegrees(0.3, 0.3, mousePosition.x, mousePosition.y);
-				var offset = Math.min(0.15, distanceBetweenPoints(0.3, 0.3, mousePosition.x, mousePosition.y));
-
-				material.uniforms.uOffset.value = offset;
-				material.uniforms.uRotation.value = rotation;
-			});
-			
-		});
-		
-		
-		
-	});
-</script>
-</body>
-			 
+<script src="../sq.js" type="text/javascript"></script> 
+</body> 
 </html>
+
+<!--
+ •                  
+┏┓┏┳┓┏┓┏┓┏┓┓┏┏┓┏┏┓┏┓
+┛┗┛┗┗┗┛┛┗┗┫┗┻┗┻┛┗┻┛ 
+-->	
