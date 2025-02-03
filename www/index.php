@@ -21,11 +21,7 @@
 		HAVE FUN!
 		simonquasar
 		
-<<<<<<< HEAD
-		last-edit: 29.Jan.2025
-=======
 		last-edit: 30.Jan.2025 
->>>>>>> 120b76b6759eae06650491adc9d8fe79604e51e4
 	-->
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -100,23 +96,17 @@
 				</div>
 				
 				<div id="icons">
-<<<<<<< HEAD
-						<a class="icon" href="https://github.com/simonquasar" target="_self" title="github.com/simonquasar / GitHub"><img src="images/github-mark.png" width="24px"/></a>
-						<a class="icon" href="https://blog.simonquasar.net" target="_self" title="blog.simonquasar.net / tumblr"><img src="images/tumblr.png" width="24px"/></a>	
-						<a class="icon" href="https://bsky.app/profile/smnqsr.bsky.social" target="_self" title="@a bsky.social"><img src="images/bsky-black.png" width="24px"/></a>	
-=======
 						<a class="icon" href="https://github.com/simonquasar" target="_self" title="github.com/simonquasar / GitHub"><img src="../images/github-mark.png" width="24px"/></a>
 						<a class="icon" href="https://blog.simonquasar.net" target="_self" title="blog.simonquasar.net / tumblr"><img src="../images/tumblr.png" width="24px"/></a>	
 						<a class="icon" href="https://bsky.app/profile/smnqsr.bsky.social" target="_self" title="@a bsky.social"><img src="../images/bsky_black.png" width="24px"/></a>	
->>>>>>> 120b76b6759eae06650491adc9d8fe79604e51e4
 				</div>
 				
 				<div id="lang_menu" class="menu">
 					<a href="#" class="lang_link" target="_self">eng</a>
-					<a href="https://www.simonquasar.net/de" class="lang_link" target="_self">deu</a> 
-					<a href="https://www.simonquasar.net/it" class="lang_link" target="_self">ita</a>
-					<a href="https://www.simonquasar.net/es" class="lang_link" target="_self">esp</a>
-					<a href="https://www.simonquasar.net/jp" class="lang_link" target="_self">日本語</a>
+					<a href="/de" class="lang_link" target="_self">deu</a> 
+					<a href="/it" class="lang_link" target="_self">ita</a>
+					<a href="/es" class="lang_link" target="_self">esp</a>
+					<a href="/jp" class="lang_link" target="_self">日本語</a>
 				</div>
 
 				<div class="section" id="home">
@@ -372,7 +362,7 @@
 					if ($hour >= 10 && $hour < 15) { 
 						echo "<small style='color:var(--branch-corporate)'>now available!</small>";
 					} else {
-						echo "<small style='color:var(--branch-releases)'>now offline</small>";
+						echo "<small style='color:var(--branch-releases)'>offline</small>";
 					}
 				} else {
 					echo "<small style='color:var(--branch-print)'>offline for the weekend</small>";

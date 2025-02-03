@@ -162,7 +162,8 @@ h2 {
 a {	
 	outline: none;
 	text-decoration: none;	
-	-webkit-transition: color 1s;     
+	-webkit-transition: color 1s;
+	transition: color 1s;     
 }
 
 bold {
@@ -506,7 +507,7 @@ input {	vertical-align: middle;}
 
 	.lang_link[href*="/jp"]:hover:after {
 		opacity: 0.2;
-}
+	}
 
 	.lang_link:hover {
 		color: #000;
@@ -518,13 +519,10 @@ input {	vertical-align: middle;}
 		opacity: 0.2;
 	}
 
-	/* Testo sopra l'effetto bandiera */
 	.lang_link {
 		position: relative;
 		z-index: 2;
 	}
-
-
 	
 	#menuleft {
 		display: none;
@@ -971,7 +969,7 @@ input {	vertical-align: middle;}
 		float: left;
 	}
 	
-	.title. .description, .link {
+	.title .description, .link {
 		width: auto;
 		position: relative;
 		overflow: hidden;
