@@ -21,7 +21,11 @@
 		HAVE FUN!
 		simonquasar
 		
+<<<<<<< HEAD
+		last-edit: 29.Jan.2025
+=======
 		last-edit: 30.Jan.2025 
+>>>>>>> 120b76b6759eae06650491adc9d8fe79604e51e4
 	-->
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -96,9 +100,15 @@
 				</div>
 				
 				<div id="icons">
+<<<<<<< HEAD
+						<a class="icon" href="https://github.com/simonquasar" target="_self" title="github.com/simonquasar / GitHub"><img src="images/github-mark.png" width="24px"/></a>
+						<a class="icon" href="https://blog.simonquasar.net" target="_self" title="blog.simonquasar.net / tumblr"><img src="images/tumblr.png" width="24px"/></a>	
+						<a class="icon" href="https://bsky.app/profile/smnqsr.bsky.social" target="_self" title="@a bsky.social"><img src="images/bsky-black.png" width="24px"/></a>	
+=======
 						<a class="icon" href="https://github.com/simonquasar" target="_self" title="github.com/simonquasar / GitHub"><img src="../images/github-mark.png" width="24px"/></a>
 						<a class="icon" href="https://blog.simonquasar.net" target="_self" title="blog.simonquasar.net / tumblr"><img src="../images/tumblr.png" width="24px"/></a>	
 						<a class="icon" href="https://bsky.app/profile/smnqsr.bsky.social" target="_self" title="@a bsky.social"><img src="../images/bsky_black.png" width="24px"/></a>	
+>>>>>>> 120b76b6759eae06650491adc9d8fe79604e51e4
 				</div>
 				
 				<div id="lang_menu" class="menu">
@@ -300,18 +310,33 @@
 
 			
 			<div class="section" id="nemg">
+<<<<<<< HEAD
+				<h1 id="nemg-header" style="margin: 20px 0"  style="color:var(--branch-print);">明治の出版</h1><img class="mobile-img" src="/inc/明治の出版.png" alt="明治の出版"/>
+=======
 				<h1 id="nemg-header" style="margin: 20px 0" style="color:var(--branch-print);">明治の出版</h1>
 				<img class="mobile-img" src="../inc/nihonnoshuppansha.png" alt="明治の出版 Meji Publishing"/>
+>>>>>>> 120b76b6759eae06650491adc9d8fe79604e51e4
 				</br>
 				<h3><i>The Emergence of Modern Publishing in Japan</i> <span style="font-weight:lighter">1853–1890</span></h3>
 				<h3 style="font-weight:lighter"><i>La nascita dell’editoria moderna in Giappone</i> <span style="font-weight:lighter; opacity: 0.8;">1853–1890</span></h3>
 				<i>Simon Pilati, 2024</i></br>
 				</br> 
 				</br>
+<<<<<<< HEAD
+				<a href="https://shuppan.simonquasar.net" target="_self" alt="La nascita dell’editoria moderna in Giappone" style="color:var(--branch-print);">
+				<img src="/images/nemg.webp" alt="Cover: La nascita dell'editoria moderna in Giappone" style="height: 250px;float: left;  padding-right: 1em;"/>
+				</>
+				<p>Questo libro esamina in dettaglio <b>l’evoluzione dell’editoria e della stampa giapponese dagli anni pre-Meiji fino alla fine del secolo XIX</b>. Assieme alle numerose controversie legali, avventure commerciali e ai tumulti politici che caratterizzavano l’epoca, vengono tracciati i ruoli importanti di figure come Fukuzawa Yukichi, Fukuchi Gen’ichirō o Edoardo Chiossone. Esplorando le relazioni tra editori, autori, Stato e opinione pubblica, il saggio delinea gli sviluppi tecnologici, il ruolo degli oranda fūsetsugaki, la nascita dei primi shinbun e degli zasshi fino all’avvento dei kisha club. <b>Un’analisi inedita per comprendere le fondamenta dell’industria editoriale giapponese moderna.</b></p>
+				<a href="https://shuppan.simonquasar.net" target="_self" alt="La nascita dell’editoria moderna in Giappone" style="color:var(--branch-print);">
+				</br>
+				</br>Maggiori informazioni qui.</a>
+				</br><small>19,20€ - 154 pagg. - ISBN 9781446129609</small>
+=======
 				<a href="https://shuppan.simonquasar.net" target="_self" alt="The Emergence of Modern Publishing in Japan" style="color:var(--branch-print);">
 					<img src="../images/nemg.webp" alt="Cover: La nascita dell’editoria moderna in Giappone" style="height: 250px;float: left;  padding-right: 1em;"/>
 				</a>
 				<p>This book examines in detail the development of Japanese publishing and printing from the pre-Meiji era to the end of the 19th century. Alongside the numerous legal controversies, commercial ventures, and political upheavals that characterized the era, it traces the significant roles of figures such as Fukuzawa Yukichi, Fukuchi Gen’ichirō, and Edoardo Chiossone. By exploring the relationships between publishers, authors, the state, and public opinion, the study outlines technological developments, the role of the Oranda Fūsetsugaki, the emergence of the first Shinbun and Zasshi, and the introduction of the Kisha Clubs. A fresh analysis to understand the foundations of the modern Japanese publishing industry.</p>
+>>>>>>> 120b76b6759eae06650491adc9d8fe79604e51e4
 				</br>
 				</br><small>154 pages - ISBN 9781446129609</small>
 				<a href="https://shuppan.simonquasar.net" target="_self" title="La nascita dell’editoria moderna in Giappone" style="color:var(--branch-print);">
