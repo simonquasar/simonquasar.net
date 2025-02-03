@@ -90,6 +90,7 @@
 					<a href="#work" id="pricelist_link" data-toggle="#pricelist">services</a>
 					<br/>
 					<a href="#nemg" id="nemg_link" alt="La nascita dell’editoria moderna in Giappone" data-toggle="#nemg" style="color:var(--branch-print);">明治の出版</a>
+					<a href="#github" id="github_link" alt="OpenDev" data-toggle="#github" style="color:var(--branch-events);">< open dev /></a>
 					<br/>
 					<a href="#contact" id="contact_link" data-toggle="#contact">contact</a>
 				</div>
@@ -124,7 +125,8 @@
 					<a href="#who" data-toggle="#who">who</a>
 					<a href="#portfolio" data-toggle="#portfolio">portfolio</a>
 					<a href="#work" data-toggle="#pricelist">services</a> 
-					<a href="#nemg" style="color:var(--branch-print);font-size:0.9em;">明治の出版</a>
+					<a href="#nemg" style="color:var(--branch-coding);font-size:0.9em;">出版</a>
+					<a href="#github" style="color:var(--branch-coding);">< dev/></a>
 					<a href="#contact" data-toggle="#contact">contact</a>
 				</div>
 			
@@ -163,8 +165,8 @@
 				<div id="preloader"><p><i><b>Projects are loading...</b></i>
 				<br/>
 				<br/>This preloader message is written to distract you a bit, hope it's helpful to relieve from the burden of waiting.
-				<br/>Please wait a few seconds or change your browser.
-				<br/>
+				<br/>Please wait a few seconds or if the problem persists change your browser.
+				<br/>Another fallback: my (old) <a href="https://www.behance.net/simonquasar" target="_blank" alt="Behance" title="Behance simonquasar portfolio"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/behance/behance-original-wordmark.svg" alt="behance" style="width: 5em; top: 2.1em; position: relative; padding: 0 0.5em;"/></a> portfolio.
 				<br/></p></div>	
 				<div id="filters" class="branches">
 					<div id="identity" class="branch filter" data-filter=".identity">
@@ -317,8 +319,9 @@
 				</br>
 			</div>
 
-			
 			<hr>
+
+			<? include('dev.php'); ?> 
 			
 			<div class="section" id="contact">
 				<h1 id="contact-header" style="margin: 20px 0">Contact</h1><img class="mobile-img" src="/inc/contact.png" alt="Contact"/>
@@ -336,14 +339,18 @@
 				<?php 
 				date_default_timezone_set('Europe/Rome');
 				$now = new DateTime();
-				$hour = $now->format('H');
+				$hour = (int) $now->format('H'); // Ensure $hour is an integer
 				$day = $now->format('l');
-				//echo date_default_timezone_get();
-				if($day == "Saturday" || $day == "Sunday") {
-				} else { 
-					if (($hour > 10) && ($hour < 15)) { 
-						echo " <small style='color:#8BEA00'>now open!</small>" ;
+
+				// Check if it's a weekday and within operating hours
+				if (!in_array($day, ["Saturday", "Sunday"])) { 
+					if ($hour >= 10 && $hour < 15) { 
+						echo "<small style='color:var(--branch-corporate)'>now available!</small>";
+					} else {
+						echo "<small style='color:var(--branch-releases)'>now offline</small>";
 					}
+				} else {
+					echo "<small style='color:var(--branch-print)'>offline for the weekend</small>";
 				}
 				?>
 				
@@ -353,7 +360,7 @@
 				Since <b>2012</b>. Currently based in <i>Italy</i>.</br>
 				<br/>
 				<br/>
-				<small><a href="https://bit.ly/sqpricelist24" target="_blank">Price List</a></small> / <small><a href="https://cloud.simonquasar.net/s/ToS_ita" target="_blank">Terms and Conditions</a> - <a href="taga.pdf">TAGA.DOC.18 (ITA)</a></small><br/>
+				<small><a href="https://bit.ly/sqpricelist24" target="_blank">Price List</a> / Terms and Conditions <u><a href="https://cloud.simonquasar.net/s/ToS_ENG" target="_blank">EN</a></u> <u><a href="https://cloud.simonquasar.net/s/ToS_DEU" target="_blank">DE</a></u> <u><a href="https://cloud.simonquasar.net/s/ToS_ITA" target="_blank">IT</a></u> / <a href="taga.pdf">TAGA.DOC.18 (ITA)</a></small><br/>
 				<small><span style="display: inline-block;">VAT</span> IT 01223370253</small></br>
 				
 				<!--googleon: all-->
@@ -365,7 +372,7 @@
 			
 			<div class="section" id="copyright">
 				<div class="copyright" style="opacity:0.8">
-					<b>© 2012-<?php echo date("Y"); ?>, Simon Pilati  - All rights reserved. All materials on these pages are copyrighted</b>, unless otherwise indicated. 
+					<b>© 2012-<?php echo date("Y"); ?>, Simon Pilati  - All rights reserved. <span style="color:var(--branch-coding)">All materials on these pages are copyrighted</span></b>, unless otherwise indicated. 
 					No part of these pages, either text or images may be used for any purpose other than personal use, unless explicit authorization is given. Therefore reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means – electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.
 					<br>
 					The information contained in this website is for general information purposes only. I make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose.  Any reliance you place on such information is therefore strictly at your own risk.
