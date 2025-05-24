@@ -162,8 +162,7 @@ h2 {
 a {	
 	outline: none;
 	text-decoration: none;	
-	-webkit-transition: color 1s;
-	transition: color 1s;     
+	-webkit-transition: color 1s;     
 }
 
 bold {
@@ -471,7 +470,7 @@ input {	vertical-align: middle;}
 	}
 	
 	.lang_link[href$=".net/"]:before {
-		background: linear-gradient(90deg, #012169 33%, #012169 33%, #c60b1e 66%, #C8102E 66%);
+		background: linear-gradient(90deg, #012169 45%, #012169 50%, #c60b1e 50%, #c60b1e 50%);
 	}
 		
 	.lang_link[href*="/it"]:before {
@@ -507,7 +506,7 @@ input {	vertical-align: middle;}
 
 	.lang_link[href*="/jp"]:hover:after {
 		opacity: 0.2;
-	}
+}
 
 	.lang_link:hover {
 		color: #000;
@@ -519,10 +518,13 @@ input {	vertical-align: middle;}
 		opacity: 0.2;
 	}
 
+	/* Testo sopra l'effetto bandiera */
 	.lang_link {
 		position: relative;
 		z-index: 2;
 	}
+
+
 	
 	#menuleft {
 		display: none;
@@ -684,7 +686,7 @@ input {	vertical-align: middle;}
 		background-color: white;
 
 	  /* border & size */
-	  border: solid black 2px;
+	  /* border: solid black 2px; */
 	  border-radius: 10px;
 	  padding: 10px;
 	  width: auto;
