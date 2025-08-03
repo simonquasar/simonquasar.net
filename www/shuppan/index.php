@@ -25,7 +25,7 @@
     <link rel="manifest" href="https://simonquasar.net/site.webmanifest?v=1.1">
     <link rel="shortcut icon" href="https://simonquasar.net/favicon.ico?v=1.1">
     <link rel="image_src" href="https://simonquasar.net/images/Q.png">
-    <link rel="stylesheet" href="https://simonquasar.net/2023.css"; type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="https://simonquasar.net/style.css"; type="text/css" media="screen, projection">
     <script src="https://code.jquery.com/jquery-latest.min.js"; type="text/javascript"></script>
 	 <style>
         ul {
@@ -37,10 +37,23 @@
         }
         li ul {
             padding-left: 10px;
-        }
+        } 
         li ul li {
             padding-left: 10px;
         }
+		.noselect {
+		  -webkit-user-select: none; /* Chrome, Safari */
+		  -moz-user-select: none;    /* Firefox */
+		  -ms-user-select: none;     /* IE/Edge */
+		  user-select: none;         /* Standard */
+		}
+		#ns {
+		width: 99%;
+		height: 558px;
+		position: relative;
+		top: -600px;
+		z-index: 5000;
+		}
     </style>
 </head>
 <body>
@@ -118,7 +131,17 @@
                 <small>ISBN 9781446129609<br>
                 Giugno 2024, Italia<br>
                 © Pubblicato da Simon Pilati. Tutti i diritti riservati.</small>
+				
             </div>
+			
+			<hr>
+			
+            <div class="section"  style="height: 70vh;min-height: 660px;" id="appendix">
+                <h3>Appendice</h3><br>
+
+				<iframe id="gdocs" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTZ8F5lfZeMLtewkFDq2D0Q_MvnBrKaIngkxeOrIKS1Zd8-ayX4amvLIkoy1poc_f9gr5CBRDcKla88/pubhtml?widget=true&amp;headers=false" width="100%" height="600" style="z-index:500;" oncontextmenu="return false;" class="noselect"></iframe>	
+				<div id="ns" oncontextmenu="return false;" class="noselect"></div>
+			</div>
 
             <hr>
 
@@ -228,13 +251,14 @@
                 </p>
             </div>
 
-            <hr>
+			<hr>
 			
             <div class="section"  style="height:auto;" id="contact">
                 <h3>L'autore</h3><br>
                 <p>Nato nel <b>1985</b>, Simon Pilati ha studiato lingue e letterature straniere moderne presso l'Università di Bologna.
 				<br>Da oltre dodici anni si occupa di <b>servizi per l'editoria</b> e piattaforme culturali tra Roma, Berlino e Palermo.
 				<br>Attualmente vive sulle <b>Dolomiti</b>.
+				<br>
 				<br>Domande, correzioni e informazioni a mezzo email > <a href="mailto:s@simonquasar.net"; target="_blank" title="email" style="color:var(--branch-print);">s@simonquasar.net</a>
                 </p>
             </div>
@@ -255,4 +279,3 @@
         </div>
     </div>
 </body>
-</html>

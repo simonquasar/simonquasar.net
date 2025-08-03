@@ -102,7 +102,7 @@
 	--main-magenta: #E22E85;
 	--main-green: #8BEA00;
 	--main-black: #1A1A1A;
-	--main-white: #fdfdfd;
+	--main-white: #FDFDFB;
 }
 
 body {
@@ -114,6 +114,8 @@ body {
 	scrollbar-shadow-color: var(--main-black);	
 	scrollbar-track-color: var(--main-black);
 	font-synthesis: none;
+	overscroll-behavior: none;
+
 }
 
 
@@ -232,7 +234,12 @@ u:nth-of-type(6):hover, u:nth-of-type(12):hover {
 
 
 strong { font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;	font-weight: 700; }
-img { border: none;}
+img { 
+	border: none;
+  /* Prevent haptic touch previews */
+	-webkit-touch-callout: none;
+	-webkit-user-drag: none;
+}
 
 p {	
 	margin: 0 0 2em;

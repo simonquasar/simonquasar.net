@@ -21,7 +21,7 @@
 		HAVE FUN!
 		simonquasar
 		
-		last-edit: 30.Jan.2025 
+		last-edit: 3.Aug.2025 
 	-->
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -46,15 +46,13 @@
 	<meta name="msapplication-navbutton-color" content="#ffb500">
 	<meta name="msapplication-TileColor" content="#ffb500">
 	<meta name="theme-color" content="#ffb500">
-	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	
-	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=1.1">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./android-chrome-192x192.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico">
-	<link rel="manifest" href="/site.webmanifest?v=1.1">
-	<link rel="shortcut icon" href="./favicon.ico?v=1.1">
-	<link rel="image_src" href="./images/Q.png" />
+	<link rel="shortcut icon" href="./favicon.ico">
+	<link rel="image_src" href="./icons/sq.png" />
 	<link rel="stylesheet" href="./style.css" type="text/css" media="screen, projection" />
 	
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -78,7 +76,7 @@
 
 		<div id="center">				
 				<div class="header">
-					 <a href="https://simonquasar.net" target="_self" title="simonquasar"><img class="header-img" id="qh" src="/q18.png" title="simonquasar" alt="simonquasar"/></a> 
+					 <a href="https://simonquasar.net" target="_self" title="simonquasar"><img class="header-img" id="qh" src="/icons/sq.png" title="simonquasar" alt="simonquasar"/></a> 
 					<bold><i>simonquasar</i></bold><br/>
 					<i style="opacity: 0.7">simon pilati</i><br/>
 					<i style="opacity: 0.7"><small>サイモン　ピラティ</small></i><br/>
@@ -120,7 +118,7 @@
 		<div id="left">				
 				
 				<div id="menuleft" class="menu">
-					<a href="https://simonquasar.net" target="_self" title="simonquasar"><img class="header-img" id="qh" src="/q18.png" title="simonquasar" alt="simonquasar"/></a> 
+					<a href="https://simonquasar.net" target="_self" title="simonquasar"><img class="header-img" id="qh" src="/icons/sq.png" title="simonquasar" alt="simonquasar"/></a> 
 					<br/>
 					<a href="#who" data-toggle="#who">who</a>
 					<a href="#portfolio" data-toggle="#portfolio">portfolio</a>
@@ -321,7 +319,7 @@
 
 			<hr>
 
-			<? include('dev.php'); ?> 
+			<? include('dev.php'); ?>  
 			
 			<div class="section" id="contact">
 				<h1 id="contact-header" style="margin: 20px 0">Contact</h1><img class="mobile-img" src="/inc/contact.png" alt="Contact"/>

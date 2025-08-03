@@ -20,7 +20,10 @@ function distanceBetweenPoints(x1, y1, x2, y2) {
 //var text = ['HELLO', 'こんにちは', 'HALLO', 'CIAO', '¡Hola!']
 
 function change() {
-	var x = Math.floor(getRandom(0, 4));
+	if ($('#hello').length === 0) {
+		return;
+	}
+	var x = Math.floor(getRandom(0, 4)); 
 	
 	// $('#hello').html(text[x]);
 	var content = $('#hello').text();
