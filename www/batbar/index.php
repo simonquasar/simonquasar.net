@@ -133,10 +133,10 @@
     <div id="bt"></div>
     <div id="bb"></div>
     <div id="wrap" style="min-width:200px">
-        <div id="center">
+        <div id="center"> 
             <div class="header">
                 <a href="https://simonquasar.net"; target="_self" title="simonquasar">
-                    <img class="header-img" id="qh" src="https://www.simonquasar.net/q18.png"; alt="simonquasar">
+                    <img class="header-img" id="qh" src="https://www.simonquasar.net/icons/sq.png" alt="simonquasar">
                 </a>
                 <b><i>simonquasar</i></b><br>
                 <i style="opacity: 0.7">simon pilati</i><br>

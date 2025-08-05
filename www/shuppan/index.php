@@ -66,7 +66,7 @@
         <div id="center">
             <div class="header">
                 <a href="https://simonquasar.net"; target="_self" title="simonquasar">
-                    <img class="header-img" id="qh" src="https://simonquasar.net/q18.png"; alt="simonquasar">
+                    <img class="header-img" id="qh" src="https://www.simonquasar.net/icons/sq.png"; alt="simonquasar">
                 </a>
                 <b><i>simonquasar</i></b><br>
                 <i style="opacity: 0.7">simon pilati</i><br>

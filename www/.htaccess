@@ -6,7 +6,8 @@ ErrorDocument 404 /404.php
 ErrorDocument 500 /500.php
 #KONSOLEH AREA END - PLEASE ADD MANUAL CHANGES BELOW
 php_flag log_errors on
-php_value error_log /usr/home/simonqua/php.log
+php_value error_log /usr/home/simonqa/www_logs/php.log
+
 <IfModule mod_headers.c>
   <FilesMatch "\.(ttf|otf|eot|woff|woff2|css|jpg|jpeg|png|webp|ico|webmanifest)$">
     SetEnvIf Origin "^https://.*\.simonquasar\.net$" CORS_ORIGIN=$0
